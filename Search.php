@@ -1,6 +1,6 @@
 <?php
     header('Content-Type: application/json');
-    $key = '2c4e24b2';
+    $key = 'secret';
     $url = 'https://www.omdbapi.com/';
 
     if (isset($_GET['title'])) {
