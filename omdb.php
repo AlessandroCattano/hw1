@@ -1,6 +1,6 @@
 <?php
     header('Content-Type: application/json');
-    $key = '2c4e24b2';
+    $key = 'secret';
     $url = 'https://www.omdbapi.com/';
     $data = json_decode(file_get_contents('php://input'), true);
     $results = array();
