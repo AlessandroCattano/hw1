@@ -1,7 +1,7 @@
 <?php
     header('Content-Type: application/json');
-    $clientId = 'd5ae488ed01d4ffca577289e96e0b1ca';
-    $clientSecret = '84be69b2dfac43bb9519ca699930c8ba';
+    $clientId = 'secret';
+    $clientSecret = 'secret';
     $conn = mysqli_connect("localhost", "root", "", "justwatch");
     $curl = curl_init();
 
