@@ -402,7 +402,7 @@ function createlinks(json) {
 function createposters(json) {
     console.log("createposters: json ricevuto di contenuti da caricare");
     console.log(json);
-    if(json == null){
+    if(json === null){
         console.log("createposters: nessun risultato")
     }else{
         fetch('omdb.php', {
