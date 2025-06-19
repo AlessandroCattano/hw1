@@ -5,7 +5,7 @@ function Update(json){
         const poster = document.querySelector("#"+ single_id);
         poster.remove();
         const existingPosters = document.querySelectorAll('.poster');
-        if (existingPosters.length == 0) {
+        if (existingPosters.length === 0) {
             const label = document.querySelector("#title h1");
             label.textContent = "Nessun contenuto presente in lista" ; 
         }
