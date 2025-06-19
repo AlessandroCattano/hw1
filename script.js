@@ -85,8 +85,8 @@ function lvalidation(event) {
     const oldAlert = LoginModal.querySelector('#error-div');
     if (oldAlert) oldAlert.remove();
 
-    if (lform.email.value.length == 0 ||
-        lform.password.value.length == 0) {
+    if (lform.email.value.length === 0 ||
+        lform.password.value.length === 0) {
         text = "sono presenti campi vuoti";
         boolean = true;
     }
@@ -122,10 +122,10 @@ function rvalidation(event) {
     const oldAlert = RegisterModal.querySelector('#error-div');
     if (oldAlert) oldAlert.remove();
 
-    if (rform.name.value.length == 0 ||
-        rform.surname.value.length == 0 ||
-        rform.email.value.length == 0 ||
-        rform.password.value.length == 0) {
+    if (rform.name.value.length === 0 ||
+        rform.surname.value.length === 0 ||
+        rform.email.value.length === 0 ||
+        rform.password.value.length === 0) {
         text = "sono presenti campi vuoti";
         boolean = true;
     }
