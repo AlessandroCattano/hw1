@@ -78,7 +78,7 @@ function onResponse(response) {
 function lvalidation(event) {
     event.preventDefault();
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
+    const passwordRegex = /^(?=.*\d).{8,}$/;
     let text = null;
     let boolean = false;
 
@@ -115,7 +115,7 @@ function lvalidation(event) {
 function rvalidation(event) {
     event.preventDefault();
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
+    const passwordRegex = /^(?=.*\d).{8,}$/;
     let text = null;
     let boolean = false;
 
