@@ -458,7 +458,6 @@ const grid = document.querySelector('#list');
 const details = document.querySelector('#details');
 
 fetch('load_contents.php').then(onResponse).then(createposters);
-let idcontents = [];
 let single_id = null;
 
 const search = document.querySelector("#search-button");
